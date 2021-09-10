@@ -1,0 +1,68 @@
+@import url(//db.onlinewebfonts.com/c/0da9b36b54c73aea1e7dbaff7b140acc?family=Sanomat+Grab+Web+Medium);
+
+body {
+  font-family: "Sanomat Grab Web", "sans-serif";
+}
+
+.wrapper {
+  display: flex;
+  height: 68px;
+  width: 100%;
+  border-bottom: 1px solid rgb(227, 218, 216);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper img {
+  max-width: 110px;
+  padding: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+@media (min-width: 1220px) {
+  .mainContainer,
+  .sideContainer {
+    margin: 0 15%;
+  }
+}
+
+.mainContainer ul,
+.sideContainer ul {
+  text-decoration: none;
+  list-style: none;
+  width: 150px;
+  display: inline-block;
+  /* background: red; */
+}
+
+.mainContainer ul li a,
+.sideContainer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.listIcon {
+  width: 40px;
+  height: 45px;
+}
+
+.sideContainer {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin: 20px auto;
+}
+
+.smallText {
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.searchIcon {
+  height: 22px;
+  width: 22px;
+}
