@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  position: fixed;
   height: 68px;
   width: 100%;
   border-bottom: 1px solid rgb(227, 218, 216);
