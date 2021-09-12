@@ -14,3 +14,13 @@
 .image {
   margin-bottom: 70px;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 21.7px;
+  }
+
+  .image img {
+    margin-right: 0 !important;
+    width: 140px;
+  }
+}

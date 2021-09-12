@@ -1,0 +1,63 @@
+.wrapper {
+  padding: 80px;
+  background-color: rgb(0, 177, 79);
+}
+
+.animation {
+  border: none;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  color: blue;
+  animation: circle infinite linear 2s;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.6);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.info {
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+hr {
+  max-width: 600px;
+  margin: 0 400px;
+  height: 1px;
+  background-color: rgb(225, 230, 226);
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  max-width: 960px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 80px 0;
+  font-size: 80px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+
+  hr {
+    margin: 0 auto;
+  }
+}
